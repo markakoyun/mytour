@@ -1,0 +1,302 @@
+/* line 2, ../scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../scss/main.scss */
+html {
+  font-size: 16px;
+}
+/* line 10, ../scss/main.scss */
+html body {
+  font-family: 'Lato', sans-serif;
+  color: #93989c;
+}
+
+/* line 16, ../scss/main.scss */
+.title {
+  color: #60b0e6;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
+
+/* line 24, ../scss/main.scss */
+.titleImage {
+  text-align: center;
+}
+
+/* line 28, ../scss/main.scss */
+.rows {
+  margin-top: 50px;
+}
+
+/* line 32, ../scss/main.scss */
+.paddingNone {
+  padding: 0;
+}
+
+/* line 37, ../scss/main.scss */
+header {
+  background: url("../img/bg.jpg") center center no-repeat scroll;
+  background-size: cover;
+}
+/* line 40, ../scss/main.scss */
+header .headerContent {
+  padding: 200px 0;
+}
+/* line 42, ../scss/main.scss */
+header .headerContent p {
+  font-size: 1.875em;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.4);
+  max-width: 420px;
+  padding: 5px 0;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 52, ../scss/main.scss */
+header .headerContent h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+/* line 59, ../scss/main.scss */
+header .headerContent h1::before {
+  content: "";
+  display: block;
+  max-width: 420px;
+  border-top: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+/* line 70, ../scss/main.scss */
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 0;
+  padding: 10px;
+}
+/* line 75, ../scss/main.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #60b0e6;
+  padding: 10px 20px;
+}
+/* line 79, ../scss/main.scss */
+.navbar-default .navbar-brand {
+  padding: 5px 15px 15px 15px;
+}
+
+/* line 84, ../scss/main.scss */
+.navbar-right {
+  padding-top: 5px;
+}
+
+/* line 88, ../scss/main.scss */
+.aboutUs {
+  padding: 40px 0;
+}
+/* line 91, ../scss/main.scss */
+.aboutUs .aboutCol .aboutTitle {
+  display: inline-block;
+  margin-left: 5px;
+  text-transform: capitalize;
+  font-size: 1.25em;
+  margin-top: -10px;
+  position: relative;
+  bottom: 5px;
+  color: #000;
+}
+/* line 101, ../scss/main.scss */
+.aboutUs .aboutCol .aboutText {
+  padding-left: 50px;
+  color: #93989c;
+}
+
+/* line 108, ../scss/main.scss */
+.topTour {
+  padding: 40px 0;
+  text-align: center;
+}
+/* line 111, ../scss/main.scss */
+.topTour ul {
+  text-decoration: none;
+  margin: 30px 0;
+}
+/* line 114, ../scss/main.scss */
+.topTour ul li {
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0 5px;
+  color: #000;
+}
+/* line 119, ../scss/main.scss */
+.topTour ul li:hover {
+  color: #60b0e6;
+  border: 1px solid #60b0e6;
+}
+/* line 125, ../scss/main.scss */
+.topTour .active {
+  color: #60b0e6;
+  border: 1px solid #60b0e6;
+}
+/* line 129, ../scss/main.scss */
+.topTour img {
+  max-width: 100%;
+}
+
+/* line 134, ../scss/main.scss */
+.tourGuides {
+  padding: 50px 0;
+  text-align: center;
+}
+/* line 137, ../scss/main.scss */
+.tourGuides .name {
+  color: #000;
+  margin-top: 10px;
+  font-size: 1.25em;
+}
+/* line 142, ../scss/main.scss */
+.tourGuides img {
+  max-width: 100%;
+}
+
+/* line 147, ../scss/main.scss */
+.client {
+  background: url("../img/clientbg.jpg");
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+}
+/* line 152, ../scss/main.scss */
+.client p {
+  margin-top: 40px;
+  display: inline-block;
+}
+/* line 156, ../scss/main.scss */
+.client .name {
+  font-size: 1.5em;
+  color: #ececec;
+}
+/* line 159, ../scss/main.scss */
+.client .name::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40px;
+  background-color: #ececec;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* line 171, ../scss/main.scss */
+.contact {
+  padding-top: 80px;
+}
+/* line 172, ../scss/main.scss */
+.contact ul {
+  margin-top: 20px;
+  list-style: none;
+}
+/* line 175, ../scss/main.scss */
+.contact ul li {
+  margin-bottom: 5px;
+}
+/* line 180, ../scss/main.scss */
+.contact .inputName {
+  width: 48%;
+  margin-right: 4%;
+  border-radius: 2px;
+  border: 1px solid #cdcdcd;
+  padding: 20px 15px;
+}
+/* line 186, ../scss/main.scss */
+.contact .inputName::placeholder {
+  font-family: 'Lato', sans-serif;
+}
+/* line 190, ../scss/main.scss */
+.contact .inputMail {
+  width: 48%;
+  border-radius: 2px;
+  border: 1px solid #cdcdcd;
+  padding: 20px 15px;
+}
+/* line 195, ../scss/main.scss */
+.contact .inputMail::placeholder {
+  font-family: 'Lato', sans-serif;
+}
+/* line 199, ../scss/main.scss */
+.contact textarea {
+  margin-top: 30px;
+  border-radius: 2px;
+  border: 1px solid #cdcdcd;
+  padding: 20px 15px;
+}
+/* line 204, ../scss/main.scss */
+.contact textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+}
+/* line 208, ../scss/main.scss */
+.contact button {
+  margin: 30px 0;
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #cdcdcd;
+  text-transform: capitalize;
+}
+/* line 216, ../scss/main.scss */
+.contact .map {
+  background: url("../img/map.jpg") center center no-repeat;
+  background-size: cover;
+  height: 340px;
+}
+
+/* line 223, ../scss/main.scss */
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #60b0e6;
+}
+/* line 227, ../scss/main.scss */
+footer p {
+  color: #fff;
+}
+/* line 230, ../scss/main.scss */
+footer .footerLeft {
+  margin-top: 20px;
+}
+/* line 233, ../scss/main.scss */
+footer .footerCenter {
+  font-size: 1.125em;
+}
+/* line 236, ../scss/main.scss */
+footer .news {
+  margin-top: 25px;
+}
+/* line 238, ../scss/main.scss */
+footer .news li {
+  color: #fff;
+}
+/* line 243, ../scss/main.scss */
+footer .social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* line 250, ../scss/main.scss */
+.copy {
+  text-align: center;
+  padding: 15px 0;
+}
+/* line 253, ../scss/main.scss */
+.copy p {
+  font-size: 0.75em;
+}
